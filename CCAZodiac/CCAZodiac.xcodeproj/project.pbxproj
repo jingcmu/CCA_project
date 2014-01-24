@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		2AA1BB430FA0EAA800564377 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA1BB420FA0EAA800564377 /* MediaPlayer.framework */; };
+		85B234731875492700A6CBA7 /* zMonkeyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234101875492600A6CBA7 /* zMonkeyButton.png */; };
+		85B234741875492700A6CBA7 /* aboutUsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234111875492600A6CBA7 /* aboutUsIcon.png */; };
+		85B234751875492700A6CBA7 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234121875492600A6CBA7 /* test.png */; };
+		85B234761875492700A6CBA7 /* zSheepButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234131875492600A6CBA7 /* zSheepButtonPressed.png */; };
+		85B234771875492700A6CBA7 /* zTigerInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234141875492600A6CBA7 /* zTigerInfo.png */; };
+		85B234781875492700A6CBA7 /* zRabbitButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234151875492600A6CBA7 /* zRabbitButtonPressed.png */; };
+		85B234791875492700A6CBA7 /* icon512.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B234161875492600A6CBA7 /* icon512.jpg */; };
+		85B2347A1875492700A6CBA7 /* zHorseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234171875492600A6CBA7 /* zHorseButton.png */; };
+		85B2347B1875492700A6CBA7 /* practiceIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234181875492600A6CBA7 /* practiceIcon.png */; };
+		85B2347C1875492700A6CBA7 /* oxButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234191875492600A6CBA7 /* oxButton.png */; };
+		85B2347D1875492700A6CBA7 /* oxButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2341A1875492600A6CBA7 /* oxButtonPressed.png */; };
+		85B2347E1875492700A6CBA7 /* rabbitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2341B1875492600A6CBA7 /* rabbitButton.png */; };
+		85B2347F1875492700A6CBA7 /* rabbitButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2341C1875492600A6CBA7 /* rabbitButtonPressed.png */; };
+		85B234801875492700A6CBA7 /* zOxButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2341D1875492600A6CBA7 /* zOxButton.png */; };
+		85B234811875492700A6CBA7 /* zodiacRingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2341E1875492600A6CBA7 /* zodiacRingButton.png */; };
+		85B234821875492700A6CBA7 /* aboutUsIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2341F1875492700A6CBA7 /* aboutUsIconPressed.png */; };
+		85B234831875492700A6CBA7 /* zDogInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234201875492700A6CBA7 /* zDogInfo.png */; };
+		85B234841875492700A6CBA7 /* zOxInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234211875492700A6CBA7 /* zOxInfo.png */; };
+		85B234851875492700A6CBA7 /* videoIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234221875492700A6CBA7 /* videoIconPressed.png */; };
+		85B234861875492700A6CBA7 /* horseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234231875492700A6CBA7 /* horseButton.png */; };
+		85B234871875492700A6CBA7 /* HorseInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234241875492700A6CBA7 /* HorseInfo.png */; };
+		85B234881875492700A6CBA7 /* zodiacWheelIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234251875492700A6CBA7 /* zodiacWheelIcon.png */; };
+		85B234891875492700A6CBA7 /* zDragonInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234261875492700A6CBA7 /* zDragonInfo.png */; };
+		85B2348A1875492700A6CBA7 /* zHorseInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234271875492700A6CBA7 /* zHorseInfo.png */; };
+		85B2348B1875492700A6CBA7 /* zRatInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234281875492700A6CBA7 /* zRatInfo.png */; };
+		85B2348C1875492700A6CBA7 /* MonkeyInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234291875492700A6CBA7 /* MonkeyInfo.png */; };
+		85B2348D1875492700A6CBA7 /* horseButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2342A1875492700A6CBA7 /* horseButtonPressed.png */; };
+		85B2348E1875492700A6CBA7 /* strokeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2342B1875492700A6CBA7 /* strokeIcon.png */; };
+		85B2348F1875492700A6CBA7 /* zPigButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2342C1875492700A6CBA7 /* zPigButton.png */; };
+		85B234901875492700A6CBA7 /* morphIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2342D1875492700A6CBA7 /* morphIcon.png */; };
+		85B234911875492700A6CBA7 /* roosterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2342E1875492700A6CBA7 /* roosterButton.png */; };
+		85B234921875492700A6CBA7 /* menuBackgroundrevised.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2342F1875492700A6CBA7 /* menuBackgroundrevised.png */; };
+		85B234931875492700A6CBA7 /* zDragonButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234301875492700A6CBA7 /* zDragonButton.png */; };
+		85B234941875492700A6CBA7 /* dragonButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234311875492700A6CBA7 /* dragonButton.png */; };
+		85B234951875492700A6CBA7 /* OxInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234321875492700A6CBA7 /* OxInfo.png */; };
+		85B234961875492700A6CBA7 /* pigButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234331875492700A6CBA7 /* pigButton.png */; };
+		85B234971875492700A6CBA7 /* practiceIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234341875492700A6CBA7 /* practiceIconPressed.png */; };
+		85B234981875492700A6CBA7 /* snakeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234351875492700A6CBA7 /* snakeButton.png */; };
+		85B234991875492700A6CBA7 /* zSnakeButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234361875492700A6CBA7 /* zSnakeButtonPressed.png */; };
+		85B2349A1875492700A6CBA7 /* zSnakeInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234371875492700A6CBA7 /* zSnakeInfo.png */; };
+		85B2349B1875492700A6CBA7 /* strokeIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234381875492700A6CBA7 /* strokeIconPressed.png */; };
+		85B2349C1875492700A6CBA7 /* dogInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234391875492700A6CBA7 /* dogInfo.png */; };
+		85B2349D1875492700A6CBA7 /* zHorseButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2343A1875492700A6CBA7 /* zHorseButtonPressed.png */; };
+		85B2349E1875492700A6CBA7 /* PigInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2343B1875492700A6CBA7 /* PigInfo.png */; };
+		85B2349F1875492700A6CBA7 /* sheepButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2343C1875492700A6CBA7 /* sheepButton.png */; };
+		85B234A01875492700A6CBA7 /* dogButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2343D1875492700A6CBA7 /* dogButtonPressed.png */; };
+		85B234A11875492700A6CBA7 /* dragonButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2343E1875492700A6CBA7 /* dragonButtonPressed.png */; };
+		85B234A21875492700A6CBA7 /* DogInfo .png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2343F1875492700A6CBA7 /* DogInfo .png */; };
+		85B234A31875492700A6CBA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234401875492700A6CBA7 /* icon.png */; };
+		85B234A41875492700A6CBA7 /* monkeyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234411875492700A6CBA7 /* monkeyButton.png */; };
+		85B234A51875492700A6CBA7 /* zPigInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234421875492700A6CBA7 /* zPigInfo.png */; };
+		85B234A61875492700A6CBA7 /* zSheepInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234431875492700A6CBA7 /* zSheepInfo.png */; };
+		85B234A71875492700A6CBA7 /* zTigerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234441875492700A6CBA7 /* zTigerButton.png */; };
+		85B234A81875492700A6CBA7 /* sheepButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234451875492700A6CBA7 /* sheepButtonPressed.png */; };
+		85B234A91875492700A6CBA7 /* zodiacRingButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234461875492700A6CBA7 /* zodiacRingButtonPressed.png */; };
+		85B234AA1875492700A6CBA7 /* menuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234471875492700A6CBA7 /* menuBackground.png */; };
+		85B234AB1875492700A6CBA7 /* tigerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234481875492700A6CBA7 /* tigerButton.png */; };
+		85B234AC1875492700A6CBA7 /* DragonInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234491875492700A6CBA7 /* DragonInfo.png */; };
+		85B234AD1875492700A6CBA7 /* zAboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2344A1875492700A6CBA7 /* zAboutUs.png */; };
+		85B234AE1875492700A6CBA7 /* zodiacWheelIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2344B1875492700A6CBA7 /* zodiacWheelIconPressed.png */; };
+		85B234AF1875492700A6CBA7 /* dogButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2344C1875492700A6CBA7 /* dogButton.png */; };
+		85B234B01875492700A6CBA7 /* pigButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2344D1875492700A6CBA7 /* pigButtonPressed.png */; };
+		85B234B11875492700A6CBA7 /* TigerInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2344E1875492700A6CBA7 /* TigerInfo.png */; };
+		85B234B21875492700A6CBA7 /* zRoosterInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2344F1875492700A6CBA7 /* zRoosterInfo.png */; };
+		85B234B31875492700A6CBA7 /* tigerButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234501875492700A6CBA7 /* tigerButtonPressed.png */; };
+		85B234B41875492700A6CBA7 /* zDogButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234511875492700A6CBA7 /* zDogButton.png */; };
+		85B234B51875492700A6CBA7 /* zSheepButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234521875492700A6CBA7 /* zSheepButton.png */; };
+		85B234B61875492700A6CBA7 /* RoosterInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234531875492700A6CBA7 /* RoosterInfo.png */; };
+		85B234B71875492700A6CBA7 /* monkeyButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234541875492700A6CBA7 /* monkeyButtonPressed.png */; };
+		85B234B81875492700A6CBA7 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234551875492700A6CBA7 /* screenshot.png */; };
+		85B234B91875492700A6CBA7 /* zodiacWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234561875492700A6CBA7 /* zodiacWheel.png */; };
+		85B234BA1875492700A6CBA7 /* ratButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234571875492700A6CBA7 /* ratButtonPressed.png */; };
+		85B234BB1875492700A6CBA7 /* SnakeInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234581875492700A6CBA7 /* SnakeInfo.png */; };
+		85B234BC1875492700A6CBA7 /* RabbitInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234591875492700A6CBA7 /* RabbitInfo.png */; };
+		85B234BD1875492700A6CBA7 /* ratButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2345A1875492700A6CBA7 /* ratButton.png */; };
+		85B234BE1875492700A6CBA7 /* zOxButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2345B1875492700A6CBA7 /* zOxButtonPressed.png */; };
+		85B234BF1875492700A6CBA7 /* videoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2345C1875492700A6CBA7 /* videoIcon.png */; };
+		85B234C01875492700A6CBA7 /* zTigerButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2345D1875492700A6CBA7 /* zTigerButtonPressed.png */; };
+		85B234C11875492700A6CBA7 /* roosterButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2345E1875492700A6CBA7 /* roosterButtonPressed.png */; };
+		85B234C21875492700A6CBA7 /* zRoosterButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2345F1875492700A6CBA7 /* zRoosterButtonPressed.png */; };
+		85B234C31875492700A6CBA7 /* zPigButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234601875492700A6CBA7 /* zPigButtonPressed.png */; };
+		85B234C41875492700A6CBA7 /* ratInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234611875492700A6CBA7 /* ratInfo.png */; };
+		85B234C51875492700A6CBA7 /* RodentInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234621875492700A6CBA7 /* RodentInfo.png */; };
+		85B234C61875492700A6CBA7 /* zRoosterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234631875492700A6CBA7 /* zRoosterButton.png */; };
+		85B234C71875492700A6CBA7 /* moprhIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234641875492700A6CBA7 /* moprhIconPressed.png */; };
+		85B234C81875492700A6CBA7 /* zRabbitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234651875492700A6CBA7 /* zRabbitButton.png */; };
+		85B234C91875492700A6CBA7 /* zRabbitInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234661875492700A6CBA7 /* zRabbitInfo.png */; };
+		85B234CA1875492700A6CBA7 /* tiger_iphoneinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234671875492700A6CBA7 /* tiger_iphoneinfo.png */; };
+		85B234CB1875492700A6CBA7 /* zSnakeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234681875492700A6CBA7 /* zSnakeButton.png */; };
+		85B234CC1875492700A6CBA7 /* SheepInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234691875492700A6CBA7 /* SheepInfo.png */; };
+		85B234CD1875492700A6CBA7 /* zDogButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2346A1875492700A6CBA7 /* zDogButtonPressed.png */; };
+		85B234CE1875492700A6CBA7 /* zRatButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2346B1875492700A6CBA7 /* zRatButton.png */; };
+		85B234CF1875492700A6CBA7 /* zMonkeyInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2346C1875492700A6CBA7 /* zMonkeyInfo.png */; };
+		85B234D01875492700A6CBA7 /* aboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2346D1875492700A6CBA7 /* aboutUs.png */; };
+		85B234D11875492700A6CBA7 /* zMonkeyButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2346E1875492700A6CBA7 /* zMonkeyButtonPressed.png */; };
+		85B234D21875492700A6CBA7 /* zDragonButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B2346F1875492700A6CBA7 /* zDragonButtonPressed.png */; };
+		85B234D31875492700A6CBA7 /* zRatButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234701875492700A6CBA7 /* zRatButtonPressed.png */; };
+		85B234D41875492700A6CBA7 /* snakeButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234711875492700A6CBA7 /* snakeButtonPressed.png */; };
+		85B234D51875492700A6CBA7 /* 2 icon bar copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B234721875492700A6CBA7 /* 2 icon bar copy.png */; };
+		85B234FA1875495900A6CBA7 /* dogMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234D61875495700A6CBA7 /* dogMorph.mp4 */; };
+		85B234FB1875495900A6CBA7 /* dogStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234D71875495700A6CBA7 /* dogStroke.mp4 */; };
+		85B234FC1875495900A6CBA7 /* dogVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234D81875495700A6CBA7 /* dogVideo.mp4 */; };
+		85B234FD1875495900A6CBA7 /* dragonMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234D91875495700A6CBA7 /* dragonMorph.mp4 */; };
+		85B234FE1875495900A6CBA7 /* dragonStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234DA1875495700A6CBA7 /* dragonStroke.mp4 */; };
+		85B234FF1875495900A6CBA7 /* dragonVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234DB1875495700A6CBA7 /* dragonVideo.mp4 */; };
+		85B235001875495900A6CBA7 /* horseMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234DC1875495700A6CBA7 /* horseMorph.mp4 */; };
+		85B235011875495900A6CBA7 /* horseStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234DD1875495700A6CBA7 /* horseStroke.mp4 */; };
+		85B235021875495900A6CBA7 /* horseVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234DE1875495700A6CBA7 /* horseVideo.mp4 */; };
+		85B235031875495900A6CBA7 /* monkeyMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234DF1875495700A6CBA7 /* monkeyMorph.mp4 */; };
+		85B235041875495900A6CBA7 /* monkeyStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E01875495700A6CBA7 /* monkeyStroke.mp4 */; };
+		85B235051875495900A6CBA7 /* monkeyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E11875495700A6CBA7 /* monkeyVideo.mp4 */; };
+		85B235061875495900A6CBA7 /* oxMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E21875495700A6CBA7 /* oxMorph.mp4 */; };
+		85B235071875495900A6CBA7 /* oxStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E31875495800A6CBA7 /* oxStroke.mp4 */; };
+		85B235081875495900A6CBA7 /* oxVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E41875495800A6CBA7 /* oxVideo.mp4 */; };
+		85B235091875495900A6CBA7 /* pigMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E51875495800A6CBA7 /* pigMorph.mp4 */; };
+		85B2350A1875495900A6CBA7 /* pigStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E61875495800A6CBA7 /* pigStroke.mp4 */; };
+		85B2350B1875495900A6CBA7 /* pigVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E71875495800A6CBA7 /* pigVideo.mp4 */; };
+		85B2350C1875495900A6CBA7 /* rabbitMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E81875495800A6CBA7 /* rabbitMorph.mp4 */; };
+		85B2350D1875495900A6CBA7 /* rabbitStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234E91875495800A6CBA7 /* rabbitStroke.mp4 */; };
+		85B2350E1875495900A6CBA7 /* rabbitVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234EA1875495800A6CBA7 /* rabbitVideo.mp4 */; };
+		85B2350F1875495900A6CBA7 /* ratMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234EB1875495800A6CBA7 /* ratMorph.mp4 */; };
+		85B235101875495900A6CBA7 /* ratStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234EC1875495800A6CBA7 /* ratStroke.mp4 */; };
+		85B235111875495900A6CBA7 /* ratVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234ED1875495800A6CBA7 /* ratVideo.mp4 */; };
+		85B235121875495900A6CBA7 /* RoosterMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234EE1875495800A6CBA7 /* RoosterMorph.mp4 */; };
+		85B235131875495900A6CBA7 /* RoosterStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234EF1875495800A6CBA7 /* RoosterStroke.mp4 */; };
+		85B235141875495900A6CBA7 /* roosterVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F01875495800A6CBA7 /* roosterVideo.mp4 */; };
+		85B235151875495900A6CBA7 /* sheepMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F11875495800A6CBA7 /* sheepMorph.mp4 */; };
+		85B235161875495900A6CBA7 /* sheepStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F21875495800A6CBA7 /* sheepStroke.mp4 */; };
+		85B235171875495900A6CBA7 /* sheepVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F31875495800A6CBA7 /* sheepVideo.mp4 */; };
+		85B235181875495900A6CBA7 /* snakeMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F41875495800A6CBA7 /* snakeMorph.mp4 */; };
+		85B235191875495900A6CBA7 /* snakeStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F51875495800A6CBA7 /* snakeStroke.mp4 */; };
+		85B2351A1875495900A6CBA7 /* snakeVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F61875495800A6CBA7 /* snakeVideo.mp4 */; };
+		85B2351B1875495900A6CBA7 /* tigerMorph.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F71875495800A6CBA7 /* tigerMorph.mp4 */; };
+		85B2351C1875495900A6CBA7 /* tigerStroke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F81875495900A6CBA7 /* tigerStroke.mp4 */; };
+		85B2351D1875495900A6CBA7 /* tigerVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85B234F91875495900A6CBA7 /* tigerVideo.mp4 */; };
+		85B2355B187549CD00A6CBA7 /* CCAZodiacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2351F187549CC00A6CBA7 /* CCAZodiacAppDelegate.m */; };
+		85B2355C187549CD00A6CBA7 /* CCAZodiacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23521187549CC00A6CBA7 /* CCAZodiacViewController.m */; };
+		85B2355D187549CD00A6CBA7 /* DogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23523187549CC00A6CBA7 /* DogView.m */; };
+		85B2355E187549CD00A6CBA7 /* DragonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23525187549CC00A6CBA7 /* DragonView.m */; };
+		85B2355F187549CD00A6CBA7 /* HorseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23527187549CC00A6CBA7 /* HorseView.m */; };
+		85B23560187549CD00A6CBA7 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23529187549CC00A6CBA7 /* InfoView.m */; };
+		85B23562187549CD00A6CBA7 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2352C187549CC00A6CBA7 /* MainView.m */; };
+		85B23563187549CD00A6CBA7 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2352E187549CC00A6CBA7 /* MenuView.m */; };
+		85B23564187549CD00A6CBA7 /* MonkeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23530187549CC00A6CBA7 /* MonkeyView.m */; };
+		85B23565187549CD00A6CBA7 /* OxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23532187549CD00A6CBA7 /* OxView.m */; };
+		85B23566187549CD00A6CBA7 /* PigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23534187549CD00A6CBA7 /* PigView.m */; };
+		85B23567187549CD00A6CBA7 /* RabbitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23536187549CD00A6CBA7 /* RabbitView.m */; };
+		85B23568187549CD00A6CBA7 /* RatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23538187549CD00A6CBA7 /* RatView.m */; };
+		85B23569187549CD00A6CBA7 /* RoosterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2353A187549CD00A6CBA7 /* RoosterView.m */; };
+		85B2356A187549CD00A6CBA7 /* SheepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2353C187549CD00A6CBA7 /* SheepView.m */; };
+		85B2356B187549CD00A6CBA7 /* SnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2353E187549CD00A6CBA7 /* SnakeView.m */; };
+		85B2356C187549CD00A6CBA7 /* TigerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23540187549CD00A6CBA7 /* TigerView.m */; };
+		85B2356D187549CD00A6CBA7 /* ZDogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23542187549CD00A6CBA7 /* ZDogView.m */; };
+		85B2356E187549CD00A6CBA7 /* ZDragonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23544187549CD00A6CBA7 /* ZDragonView.m */; };
+		85B2356F187549CD00A6CBA7 /* ZHorseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23546187549CD00A6CBA7 /* ZHorseView.m */; };
+		85B23570187549CD00A6CBA7 /* ZMonkeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23548187549CD00A6CBA7 /* ZMonkeyView.m */; };
+		85B23571187549CD00A6CBA7 /* ZodiacView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2354A187549CD00A6CBA7 /* ZodiacView.m */; };
+		85B23572187549CD00A6CBA7 /* ZOxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2354C187549CD00A6CBA7 /* ZOxView.m */; };
+		85B23573187549CD00A6CBA7 /* ZPigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2354E187549CD00A6CBA7 /* ZPigView.m */; };
+		85B23574187549CD00A6CBA7 /* ZRabbitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23550187549CD00A6CBA7 /* ZRabbitView.m */; };
+		85B23575187549CD00A6CBA7 /* ZRatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23552187549CD00A6CBA7 /* ZRatView.m */; };
+		85B23576187549CD00A6CBA7 /* ZRoosterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23554187549CD00A6CBA7 /* ZRoosterView.m */; };
+		85B23577187549CD00A6CBA7 /* ZSheepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23556187549CD00A6CBA7 /* ZSheepView.m */; };
+		85B23578187549CD00A6CBA7 /* ZSnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B23558187549CD00A6CBA7 /* ZSnakeView.m */; };
+		85B23579187549CD00A6CBA7 /* ZTigerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2355A187549CD00A6CBA7 /* ZTigerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* CCAZodiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCAZodiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA1BB420FA0EAA800564377 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* CCAZodiac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAZodiac_Prefix.pch; sourceTree = "<group>"; };
+		85B234101875492600A6CBA7 /* zMonkeyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zMonkeyButton.png; path = assets/image/zMonkeyButton.png; sourceTree = "<group>"; };
+		85B234111875492600A6CBA7 /* aboutUsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutUsIcon.png; path = assets/image/aboutUsIcon.png; sourceTree = "<group>"; };
+		85B234121875492600A6CBA7 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = assets/image/test.png; sourceTree = "<group>"; };
+		85B234131875492600A6CBA7 /* zSheepButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zSheepButtonPressed.png; path = assets/image/zSheepButtonPressed.png; sourceTree = "<group>"; };
+		85B234141875492600A6CBA7 /* zTigerInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zTigerInfo.png; path = assets/image/zTigerInfo.png; sourceTree = "<group>"; };
+		85B234151875492600A6CBA7 /* zRabbitButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRabbitButtonPressed.png; path = assets/image/zRabbitButtonPressed.png; sourceTree = "<group>"; };
+		85B234161875492600A6CBA7 /* icon512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon512.jpg; path = assets/image/icon512.jpg; sourceTree = "<group>"; };
+		85B234171875492600A6CBA7 /* zHorseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zHorseButton.png; path = assets/image/zHorseButton.png; sourceTree = "<group>"; };
+		85B234181875492600A6CBA7 /* practiceIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = practiceIcon.png; path = assets/image/practiceIcon.png; sourceTree = "<group>"; };
+		85B234191875492600A6CBA7 /* oxButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oxButton.png; path = assets/image/oxButton.png; sourceTree = "<group>"; };
+		85B2341A1875492600A6CBA7 /* oxButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oxButtonPressed.png; path = assets/image/oxButtonPressed.png; sourceTree = "<group>"; };
+		85B2341B1875492600A6CBA7 /* rabbitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rabbitButton.png; path = assets/image/rabbitButton.png; sourceTree = "<group>"; };
+		85B2341C1875492600A6CBA7 /* rabbitButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rabbitButtonPressed.png; path = assets/image/rabbitButtonPressed.png; sourceTree = "<group>"; };
+		85B2341D1875492600A6CBA7 /* zOxButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zOxButton.png; path = assets/image/zOxButton.png; sourceTree = "<group>"; };
+		85B2341E1875492600A6CBA7 /* zodiacRingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zodiacRingButton.png; path = assets/image/zodiacRingButton.png; sourceTree = "<group>"; };
+		85B2341F1875492700A6CBA7 /* aboutUsIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutUsIconPressed.png; path = assets/image/aboutUsIconPressed.png; sourceTree = "<group>"; };
+		85B234201875492700A6CBA7 /* zDogInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zDogInfo.png; path = assets/image/zDogInfo.png; sourceTree = "<group>"; };
+		85B234211875492700A6CBA7 /* zOxInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zOxInfo.png; path = assets/image/zOxInfo.png; sourceTree = "<group>"; };
+		85B234221875492700A6CBA7 /* videoIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videoIconPressed.png; path = assets/image/videoIconPressed.png; sourceTree = "<group>"; };
+		85B234231875492700A6CBA7 /* horseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horseButton.png; path = assets/image/horseButton.png; sourceTree = "<group>"; };
+		85B234241875492700A6CBA7 /* HorseInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HorseInfo.png; path = assets/image/HorseInfo.png; sourceTree = "<group>"; };
+		85B234251875492700A6CBA7 /* zodiacWheelIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zodiacWheelIcon.png; path = assets/image/zodiacWheelIcon.png; sourceTree = "<group>"; };
+		85B234261875492700A6CBA7 /* zDragonInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zDragonInfo.png; path = assets/image/zDragonInfo.png; sourceTree = "<group>"; };
+		85B234271875492700A6CBA7 /* zHorseInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zHorseInfo.png; path = assets/image/zHorseInfo.png; sourceTree = "<group>"; };
+		85B234281875492700A6CBA7 /* zRatInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRatInfo.png; path = assets/image/zRatInfo.png; sourceTree = "<group>"; };
+		85B234291875492700A6CBA7 /* MonkeyInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MonkeyInfo.png; path = assets/image/MonkeyInfo.png; sourceTree = "<group>"; };
+		85B2342A1875492700A6CBA7 /* horseButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horseButtonPressed.png; path = assets/image/horseButtonPressed.png; sourceTree = "<group>"; };
+		85B2342B1875492700A6CBA7 /* strokeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strokeIcon.png; path = assets/image/strokeIcon.png; sourceTree = "<group>"; };
+		85B2342C1875492700A6CBA7 /* zPigButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zPigButton.png; path = assets/image/zPigButton.png; sourceTree = "<group>"; };
+		85B2342D1875492700A6CBA7 /* morphIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = morphIcon.png; path = assets/image/morphIcon.png; sourceTree = "<group>"; };
+		85B2342E1875492700A6CBA7 /* roosterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roosterButton.png; path = assets/image/roosterButton.png; sourceTree = "<group>"; };
+		85B2342F1875492700A6CBA7 /* menuBackgroundrevised.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuBackgroundrevised.png; path = assets/image/menuBackgroundrevised.png; sourceTree = "<group>"; };
+		85B234301875492700A6CBA7 /* zDragonButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zDragonButton.png; path = assets/image/zDragonButton.png; sourceTree = "<group>"; };
+		85B234311875492700A6CBA7 /* dragonButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragonButton.png; path = assets/image/dragonButton.png; sourceTree = "<group>"; };
+		85B234321875492700A6CBA7 /* OxInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OxInfo.png; path = assets/image/OxInfo.png; sourceTree = "<group>"; };
+		85B234331875492700A6CBA7 /* pigButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pigButton.png; path = assets/image/pigButton.png; sourceTree = "<group>"; };
+		85B234341875492700A6CBA7 /* practiceIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = practiceIconPressed.png; path = assets/image/practiceIconPressed.png; sourceTree = "<group>"; };
+		85B234351875492700A6CBA7 /* snakeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snakeButton.png; path = assets/image/snakeButton.png; sourceTree = "<group>"; };
+		85B234361875492700A6CBA7 /* zSnakeButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zSnakeButtonPressed.png; path = assets/image/zSnakeButtonPressed.png; sourceTree = "<group>"; };
+		85B234371875492700A6CBA7 /* zSnakeInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zSnakeInfo.png; path = assets/image/zSnakeInfo.png; sourceTree = "<group>"; };
+		85B234381875492700A6CBA7 /* strokeIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strokeIconPressed.png; path = assets/image/strokeIconPressed.png; sourceTree = "<group>"; };
+		85B234391875492700A6CBA7 /* dogInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogInfo.png; path = assets/image/dogInfo.png; sourceTree = "<group>"; };
+		85B2343A1875492700A6CBA7 /* zHorseButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zHorseButtonPressed.png; path = assets/image/zHorseButtonPressed.png; sourceTree = "<group>"; };
+		85B2343B1875492700A6CBA7 /* PigInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PigInfo.png; path = assets/image/PigInfo.png; sourceTree = "<group>"; };
+		85B2343C1875492700A6CBA7 /* sheepButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheepButton.png; path = assets/image/sheepButton.png; sourceTree = "<group>"; };
+		85B2343D1875492700A6CBA7 /* dogButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogButtonPressed.png; path = assets/image/dogButtonPressed.png; sourceTree = "<group>"; };
+		85B2343E1875492700A6CBA7 /* dragonButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragonButtonPressed.png; path = assets/image/dragonButtonPressed.png; sourceTree = "<group>"; };
+		85B2343F1875492700A6CBA7 /* DogInfo .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DogInfo .png"; path = "assets/image/DogInfo .png"; sourceTree = "<group>"; };
+		85B234401875492700A6CBA7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/image/icon.png; sourceTree = "<group>"; };
+		85B234411875492700A6CBA7 /* monkeyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkeyButton.png; path = assets/image/monkeyButton.png; sourceTree = "<group>"; };
+		85B234421875492700A6CBA7 /* zPigInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zPigInfo.png; path = assets/image/zPigInfo.png; sourceTree = "<group>"; };
+		85B234431875492700A6CBA7 /* zSheepInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zSheepInfo.png; path = assets/image/zSheepInfo.png; sourceTree = "<group>"; };
+		85B234441875492700A6CBA7 /* zTigerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zTigerButton.png; path = assets/image/zTigerButton.png; sourceTree = "<group>"; };
+		85B234451875492700A6CBA7 /* sheepButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheepButtonPressed.png; path = assets/image/sheepButtonPressed.png; sourceTree = "<group>"; };
+		85B234461875492700A6CBA7 /* zodiacRingButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zodiacRingButtonPressed.png; path = assets/image/zodiacRingButtonPressed.png; sourceTree = "<group>"; };
+		85B234471875492700A6CBA7 /* menuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuBackground.png; path = assets/image/menuBackground.png; sourceTree = "<group>"; };
+		85B234481875492700A6CBA7 /* tigerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tigerButton.png; path = assets/image/tigerButton.png; sourceTree = "<group>"; };
+		85B234491875492700A6CBA7 /* DragonInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DragonInfo.png; path = assets/image/DragonInfo.png; sourceTree = "<group>"; };
+		85B2344A1875492700A6CBA7 /* zAboutUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zAboutUs.png; path = assets/image/zAboutUs.png; sourceTree = "<group>"; };
+		85B2344B1875492700A6CBA7 /* zodiacWheelIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zodiacWheelIconPressed.png; path = assets/image/zodiacWheelIconPressed.png; sourceTree = "<group>"; };
+		85B2344C1875492700A6CBA7 /* dogButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogButton.png; path = assets/image/dogButton.png; sourceTree = "<group>"; };
+		85B2344D1875492700A6CBA7 /* pigButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pigButtonPressed.png; path = assets/image/pigButtonPressed.png; sourceTree = "<group>"; };
+		85B2344E1875492700A6CBA7 /* TigerInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TigerInfo.png; path = assets/image/TigerInfo.png; sourceTree = "<group>"; };
+		85B2344F1875492700A6CBA7 /* zRoosterInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRoosterInfo.png; path = assets/image/zRoosterInfo.png; sourceTree = "<group>"; };
+		85B234501875492700A6CBA7 /* tigerButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tigerButtonPressed.png; path = assets/image/tigerButtonPressed.png; sourceTree = "<group>"; };
+		85B234511875492700A6CBA7 /* zDogButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zDogButton.png; path = assets/image/zDogButton.png; sourceTree = "<group>"; };
+		85B234521875492700A6CBA7 /* zSheepButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zSheepButton.png; path = assets/image/zSheepButton.png; sourceTree = "<group>"; };
+		85B234531875492700A6CBA7 /* RoosterInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RoosterInfo.png; path = assets/image/RoosterInfo.png; sourceTree = "<group>"; };
+		85B234541875492700A6CBA7 /* monkeyButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkeyButtonPressed.png; path = assets/image/monkeyButtonPressed.png; sourceTree = "<group>"; };
+		85B234551875492700A6CBA7 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = assets/image/screenshot.png; sourceTree = "<group>"; };
+		85B234561875492700A6CBA7 /* zodiacWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zodiacWheel.png; path = assets/image/zodiacWheel.png; sourceTree = "<group>"; };
+		85B234571875492700A6CBA7 /* ratButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratButtonPressed.png; path = assets/image/ratButtonPressed.png; sourceTree = "<group>"; };
+		85B234581875492700A6CBA7 /* SnakeInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SnakeInfo.png; path = assets/image/SnakeInfo.png; sourceTree = "<group>"; };
+		85B234591875492700A6CBA7 /* RabbitInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RabbitInfo.png; path = assets/image/RabbitInfo.png; sourceTree = "<group>"; };
+		85B2345A1875492700A6CBA7 /* ratButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratButton.png; path = assets/image/ratButton.png; sourceTree = "<group>"; };
+		85B2345B1875492700A6CBA7 /* zOxButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zOxButtonPressed.png; path = assets/image/zOxButtonPressed.png; sourceTree = "<group>"; };
+		85B2345C1875492700A6CBA7 /* videoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videoIcon.png; path = assets/image/videoIcon.png; sourceTree = "<group>"; };
+		85B2345D1875492700A6CBA7 /* zTigerButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zTigerButtonPressed.png; path = assets/image/zTigerButtonPressed.png; sourceTree = "<group>"; };
+		85B2345E1875492700A6CBA7 /* roosterButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roosterButtonPressed.png; path = assets/image/roosterButtonPressed.png; sourceTree = "<group>"; };
+		85B2345F1875492700A6CBA7 /* zRoosterButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRoosterButtonPressed.png; path = assets/image/zRoosterButtonPressed.png; sourceTree = "<group>"; };
+		85B234601875492700A6CBA7 /* zPigButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zPigButtonPressed.png; path = assets/image/zPigButtonPressed.png; sourceTree = "<group>"; };
+		85B234611875492700A6CBA7 /* ratInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratInfo.png; path = assets/image/ratInfo.png; sourceTree = "<group>"; };
+		85B234621875492700A6CBA7 /* RodentInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RodentInfo.png; path = assets/image/RodentInfo.png; sourceTree = "<group>"; };
+		85B234631875492700A6CBA7 /* zRoosterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRoosterButton.png; path = assets/image/zRoosterButton.png; sourceTree = "<group>"; };
+		85B234641875492700A6CBA7 /* moprhIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moprhIconPressed.png; path = assets/image/moprhIconPressed.png; sourceTree = "<group>"; };
+		85B234651875492700A6CBA7 /* zRabbitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRabbitButton.png; path = assets/image/zRabbitButton.png; sourceTree = "<group>"; };
+		85B234661875492700A6CBA7 /* zRabbitInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRabbitInfo.png; path = assets/image/zRabbitInfo.png; sourceTree = "<group>"; };
+		85B234671875492700A6CBA7 /* tiger_iphoneinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiger_iphoneinfo.png; path = assets/image/tiger_iphoneinfo.png; sourceTree = "<group>"; };
+		85B234681875492700A6CBA7 /* zSnakeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zSnakeButton.png; path = assets/image/zSnakeButton.png; sourceTree = "<group>"; };
+		85B234691875492700A6CBA7 /* SheepInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SheepInfo.png; path = assets/image/SheepInfo.png; sourceTree = "<group>"; };
+		85B2346A1875492700A6CBA7 /* zDogButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zDogButtonPressed.png; path = assets/image/zDogButtonPressed.png; sourceTree = "<group>"; };
+		85B2346B1875492700A6CBA7 /* zRatButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRatButton.png; path = assets/image/zRatButton.png; sourceTree = "<group>"; };
+		85B2346C1875492700A6CBA7 /* zMonkeyInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zMonkeyInfo.png; path = assets/image/zMonkeyInfo.png; sourceTree = "<group>"; };
+		85B2346D1875492700A6CBA7 /* aboutUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutUs.png; path = assets/image/aboutUs.png; sourceTree = "<group>"; };
+		85B2346E1875492700A6CBA7 /* zMonkeyButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zMonkeyButtonPressed.png; path = assets/image/zMonkeyButtonPressed.png; sourceTree = "<group>"; };
+		85B2346F1875492700A6CBA7 /* zDragonButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zDragonButtonPressed.png; path = assets/image/zDragonButtonPressed.png; sourceTree = "<group>"; };
+		85B234701875492700A6CBA7 /* zRatButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zRatButtonPressed.png; path = assets/image/zRatButtonPressed.png; sourceTree = "<group>"; };
+		85B234711875492700A6CBA7 /* snakeButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snakeButtonPressed.png; path = assets/image/snakeButtonPressed.png; sourceTree = "<group>"; };
+		85B234721875492700A6CBA7 /* 2 icon bar copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2 icon bar copy.png"; path = "assets/image/2 icon bar copy.png"; sourceTree = "<group>"; };
+		85B234D61875495700A6CBA7 /* dogMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dogMorph.mp4; path = assets/video/dogMorph.mp4; sourceTree = "<group>"; };
+		85B234D71875495700A6CBA7 /* dogStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dogStroke.mp4; path = assets/video/dogStroke.mp4; sourceTree = "<group>"; };
+		85B234D81875495700A6CBA7 /* dogVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dogVideo.mp4; path = assets/video/dogVideo.mp4; sourceTree = "<group>"; };
+		85B234D91875495700A6CBA7 /* dragonMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dragonMorph.mp4; path = assets/video/dragonMorph.mp4; sourceTree = "<group>"; };
+		85B234DA1875495700A6CBA7 /* dragonStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dragonStroke.mp4; path = assets/video/dragonStroke.mp4; sourceTree = "<group>"; };
+		85B234DB1875495700A6CBA7 /* dragonVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dragonVideo.mp4; path = assets/video/dragonVideo.mp4; sourceTree = "<group>"; };
+		85B234DC1875495700A6CBA7 /* horseMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = horseMorph.mp4; path = assets/video/horseMorph.mp4; sourceTree = "<group>"; };
+		85B234DD1875495700A6CBA7 /* horseStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = horseStroke.mp4; path = assets/video/horseStroke.mp4; sourceTree = "<group>"; };
+		85B234DE1875495700A6CBA7 /* horseVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = horseVideo.mp4; path = assets/video/horseVideo.mp4; sourceTree = "<group>"; };
+		85B234DF1875495700A6CBA7 /* monkeyMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = monkeyMorph.mp4; path = assets/video/monkeyMorph.mp4; sourceTree = "<group>"; };
+		85B234E01875495700A6CBA7 /* monkeyStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = monkeyStroke.mp4; path = assets/video/monkeyStroke.mp4; sourceTree = "<group>"; };
+		85B234E11875495700A6CBA7 /* monkeyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = monkeyVideo.mp4; path = assets/video/monkeyVideo.mp4; sourceTree = "<group>"; };
+		85B234E21875495700A6CBA7 /* oxMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = oxMorph.mp4; path = assets/video/oxMorph.mp4; sourceTree = "<group>"; };
+		85B234E31875495800A6CBA7 /* oxStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = oxStroke.mp4; path = assets/video/oxStroke.mp4; sourceTree = "<group>"; };
+		85B234E41875495800A6CBA7 /* oxVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = oxVideo.mp4; path = assets/video/oxVideo.mp4; sourceTree = "<group>"; };
+		85B234E51875495800A6CBA7 /* pigMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = pigMorph.mp4; path = assets/video/pigMorph.mp4; sourceTree = "<group>"; };
+		85B234E61875495800A6CBA7 /* pigStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = pigStroke.mp4; path = assets/video/pigStroke.mp4; sourceTree = "<group>"; };
+		85B234E71875495800A6CBA7 /* pigVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = pigVideo.mp4; path = assets/video/pigVideo.mp4; sourceTree = "<group>"; };
+		85B234E81875495800A6CBA7 /* rabbitMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = rabbitMorph.mp4; path = assets/video/rabbitMorph.mp4; sourceTree = "<group>"; };
+		85B234E91875495800A6CBA7 /* rabbitStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = rabbitStroke.mp4; path = assets/video/rabbitStroke.mp4; sourceTree = "<group>"; };
+		85B234EA1875495800A6CBA7 /* rabbitVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = rabbitVideo.mp4; path = assets/video/rabbitVideo.mp4; sourceTree = "<group>"; };
+		85B234EB1875495800A6CBA7 /* ratMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ratMorph.mp4; path = assets/video/ratMorph.mp4; sourceTree = "<group>"; };
+		85B234EC1875495800A6CBA7 /* ratStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ratStroke.mp4; path = assets/video/ratStroke.mp4; sourceTree = "<group>"; };
+		85B234ED1875495800A6CBA7 /* ratVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ratVideo.mp4; path = assets/video/ratVideo.mp4; sourceTree = "<group>"; };
+		85B234EE1875495800A6CBA7 /* RoosterMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = RoosterMorph.mp4; path = assets/video/RoosterMorph.mp4; sourceTree = "<group>"; };
+		85B234EF1875495800A6CBA7 /* RoosterStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = RoosterStroke.mp4; path = assets/video/RoosterStroke.mp4; sourceTree = "<group>"; };
+		85B234F01875495800A6CBA7 /* roosterVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = roosterVideo.mp4; path = assets/video/roosterVideo.mp4; sourceTree = "<group>"; };
+		85B234F11875495800A6CBA7 /* sheepMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sheepMorph.mp4; path = assets/video/sheepMorph.mp4; sourceTree = "<group>"; };
+		85B234F21875495800A6CBA7 /* sheepStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sheepStroke.mp4; path = assets/video/sheepStroke.mp4; sourceTree = "<group>"; };
+		85B234F31875495800A6CBA7 /* sheepVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sheepVideo.mp4; path = assets/video/sheepVideo.mp4; sourceTree = "<group>"; };
+		85B234F41875495800A6CBA7 /* snakeMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = snakeMorph.mp4; path = assets/video/snakeMorph.mp4; sourceTree = "<group>"; };
+		85B234F51875495800A6CBA7 /* snakeStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = snakeStroke.mp4; path = assets/video/snakeStroke.mp4; sourceTree = "<group>"; };
+		85B234F61875495800A6CBA7 /* snakeVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = snakeVideo.mp4; path = assets/video/snakeVideo.mp4; sourceTree = "<group>"; };
+		85B234F71875495800A6CBA7 /* tigerMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tigerMorph.mp4; path = assets/video/tigerMorph.mp4; sourceTree = "<group>"; };
+		85B234F81875495900A6CBA7 /* tigerStroke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tigerStroke.mp4; path = assets/video/tigerStroke.mp4; sourceTree = "<group>"; };
+		85B234F91875495900A6CBA7 /* tigerVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tigerVideo.mp4; path = assets/video/tigerVideo.mp4; sourceTree = "<group>"; };
+		85B2351E187549CC00A6CBA7 /* CCAZodiacAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAZodiacAppDelegate.h; sourceTree = "<group>"; };
+		85B2351F187549CC00A6CBA7 /* CCAZodiacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAZodiacAppDelegate.m; sourceTree = "<group>"; };
+		85B23520187549CC00A6CBA7 /* CCAZodiacViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAZodiacViewController.h; sourceTree = "<group>"; };
+		85B23521187549CC00A6CBA7 /* CCAZodiacViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAZodiacViewController.m; sourceTree = "<group>"; };
+		85B23522187549CC00A6CBA7 /* DogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogView.h; sourceTree = "<group>"; };
+		85B23523187549CC00A6CBA7 /* DogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogView.m; sourceTree = "<group>"; };
+		85B23524187549CC00A6CBA7 /* DragonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonView.h; sourceTree = "<group>"; };
+		85B23525187549CC00A6CBA7 /* DragonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonView.m; sourceTree = "<group>"; };
+		85B23526187549CC00A6CBA7 /* HorseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorseView.h; sourceTree = "<group>"; };
+		85B23527187549CC00A6CBA7 /* HorseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorseView.m; sourceTree = "<group>"; };
+		85B23528187549CC00A6CBA7 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		85B23529187549CC00A6CBA7 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		85B2352B187549CC00A6CBA7 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		85B2352C187549CC00A6CBA7 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		85B2352D187549CC00A6CBA7 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		85B2352E187549CC00A6CBA7 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		85B2352F187549CC00A6CBA7 /* MonkeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyView.h; sourceTree = "<group>"; };
+		85B23530187549CC00A6CBA7 /* MonkeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyView.m; sourceTree = "<group>"; };
+		85B23531187549CC00A6CBA7 /* OxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxView.h; sourceTree = "<group>"; };
+		85B23532187549CD00A6CBA7 /* OxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxView.m; sourceTree = "<group>"; };
+		85B23533187549CD00A6CBA7 /* PigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PigView.h; sourceTree = "<group>"; };
+		85B23534187549CD00A6CBA7 /* PigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PigView.m; sourceTree = "<group>"; };
+		85B23535187549CD00A6CBA7 /* RabbitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RabbitView.h; sourceTree = "<group>"; };
+		85B23536187549CD00A6CBA7 /* RabbitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RabbitView.m; sourceTree = "<group>"; };
+		85B23537187549CD00A6CBA7 /* RatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatView.h; sourceTree = "<group>"; };
+		85B23538187549CD00A6CBA7 /* RatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatView.m; sourceTree = "<group>"; };
+		85B23539187549CD00A6CBA7 /* RoosterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoosterView.h; sourceTree = "<group>"; };
+		85B2353A187549CD00A6CBA7 /* RoosterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoosterView.m; sourceTree = "<group>"; };
+		85B2353B187549CD00A6CBA7 /* SheepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepView.h; sourceTree = "<group>"; };
+		85B2353C187549CD00A6CBA7 /* SheepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepView.m; sourceTree = "<group>"; };
+		85B2353D187549CD00A6CBA7 /* SnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeView.h; sourceTree = "<group>"; };
+		85B2353E187549CD00A6CBA7 /* SnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeView.m; sourceTree = "<group>"; };
+		85B2353F187549CD00A6CBA7 /* TigerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TigerView.h; sourceTree = "<group>"; };
+		85B23540187549CD00A6CBA7 /* TigerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TigerView.m; sourceTree = "<group>"; };
+		85B23541187549CD00A6CBA7 /* ZDogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDogView.h; sourceTree = "<group>"; };
+		85B23542187549CD00A6CBA7 /* ZDogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDogView.m; sourceTree = "<group>"; };
+		85B23543187549CD00A6CBA7 /* ZDragonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDragonView.h; sourceTree = "<group>"; };
+		85B23544187549CD00A6CBA7 /* ZDragonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDragonView.m; sourceTree = "<group>"; };
+		85B23545187549CD00A6CBA7 /* ZHorseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHorseView.h; sourceTree = "<group>"; };
+		85B23546187549CD00A6CBA7 /* ZHorseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHorseView.m; sourceTree = "<group>"; };
+		85B23547187549CD00A6CBA7 /* ZMonkeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMonkeyView.h; sourceTree = "<group>"; };
+		85B23548187549CD00A6CBA7 /* ZMonkeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMonkeyView.m; sourceTree = "<group>"; };
+		85B23549187549CD00A6CBA7 /* ZodiacView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZodiacView.h; sourceTree = "<group>"; };
+		85B2354A187549CD00A6CBA7 /* ZodiacView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZodiacView.m; sourceTree = "<group>"; };
+		85B2354B187549CD00A6CBA7 /* ZOxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOxView.h; sourceTree = "<group>"; };
+		85B2354C187549CD00A6CBA7 /* ZOxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOxView.m; sourceTree = "<group>"; };
+		85B2354D187549CD00A6CBA7 /* ZPigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPigView.h; sourceTree = "<group>"; };
+		85B2354E187549CD00A6CBA7 /* ZPigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPigView.m; sourceTree = "<group>"; };
+		85B2354F187549CD00A6CBA7 /* ZRabbitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRabbitView.h; sourceTree = "<group>"; };
+		85B23550187549CD00A6CBA7 /* ZRabbitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRabbitView.m; sourceTree = "<group>"; };
+		85B23551187549CD00A6CBA7 /* ZRatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRatView.h; sourceTree = "<group>"; };
+		85B23552187549CD00A6CBA7 /* ZRatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRatView.m; sourceTree = "<group>"; };
+		85B23553187549CD00A6CBA7 /* ZRoosterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRoosterView.h; sourceTree = "<group>"; };
+		85B23554187549CD00A6CBA7 /* ZRoosterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRoosterView.m; sourceTree = "<group>"; };
+		85B23555187549CD00A6CBA7 /* ZSheepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheepView.h; sourceTree = "<group>"; };
+		85B23556187549CD00A6CBA7 /* ZSheepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheepView.m; sourceTree = "<group>"; };
+		85B23557187549CD00A6CBA7 /* ZSnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSnakeView.h; sourceTree = "<group>"; };
+		85B23558187549CD00A6CBA7 /* ZSnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSnakeView.m; sourceTree = "<group>"; };
+		85B23559187549CD00A6CBA7 /* ZTigerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTigerView.h; sourceTree = "<group>"; };
+		85B2355A187549CD00A6CBA7 /* ZTigerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTigerView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				2AA1BB430FA0EAA800564377 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85B2351E187549CC00A6CBA7 /* CCAZodiacAppDelegate.h */,
+				85B2351F187549CC00A6CBA7 /* CCAZodiacAppDelegate.m */,
+				85B23520187549CC00A6CBA7 /* CCAZodiacViewController.h */,
+				85B23521187549CC00A6CBA7 /* CCAZodiacViewController.m */,
+				85B23522187549CC00A6CBA7 /* DogView.h */,
+				85B23523187549CC00A6CBA7 /* DogView.m */,
+				85B23524187549CC00A6CBA7 /* DragonView.h */,
+				85B23525187549CC00A6CBA7 /* DragonView.m */,
+				85B23526187549CC00A6CBA7 /* HorseView.h */,
+				85B23527187549CC00A6CBA7 /* HorseView.m */,
+				85B23528187549CC00A6CBA7 /* InfoView.h */,
+				85B23529187549CC00A6CBA7 /* InfoView.m */,
+				85B2352B187549CC00A6CBA7 /* MainView.h */,
+				85B2352C187549CC00A6CBA7 /* MainView.m */,
+				85B2352D187549CC00A6CBA7 /* MenuView.h */,
+				85B2352E187549CC00A6CBA7 /* MenuView.m */,
+				85B2352F187549CC00A6CBA7 /* MonkeyView.h */,
+				85B23530187549CC00A6CBA7 /* MonkeyView.m */,
+				85B23531187549CC00A6CBA7 /* OxView.h */,
+				85B23532187549CD00A6CBA7 /* OxView.m */,
+				85B23533187549CD00A6CBA7 /* PigView.h */,
+				85B23534187549CD00A6CBA7 /* PigView.m */,
+				85B23535187549CD00A6CBA7 /* RabbitView.h */,
+				85B23536187549CD00A6CBA7 /* RabbitView.m */,
+				85B23537187549CD00A6CBA7 /* RatView.h */,
+				85B23538187549CD00A6CBA7 /* RatView.m */,
+				85B23539187549CD00A6CBA7 /* RoosterView.h */,
+				85B2353A187549CD00A6CBA7 /* RoosterView.m */,
+				85B2353B187549CD00A6CBA7 /* SheepView.h */,
+				85B2353C187549CD00A6CBA7 /* SheepView.m */,
+				85B2353D187549CD00A6CBA7 /* SnakeView.h */,
+				85B2353E187549CD00A6CBA7 /* SnakeView.m */,
+				85B2353F187549CD00A6CBA7 /* TigerView.h */,
+				85B23540187549CD00A6CBA7 /* TigerView.m */,
+				85B23541187549CD00A6CBA7 /* ZDogView.h */,
+				85B23542187549CD00A6CBA7 /* ZDogView.m */,
+				85B23543187549CD00A6CBA7 /* ZDragonView.h */,
+				85B23544187549CD00A6CBA7 /* ZDragonView.m */,
+				85B23545187549CD00A6CBA7 /* ZHorseView.h */,
+				85B23546187549CD00A6CBA7 /* ZHorseView.m */,
+				85B23547187549CD00A6CBA7 /* ZMonkeyView.h */,
+				85B23548187549CD00A6CBA7 /* ZMonkeyView.m */,
+				85B23549187549CD00A6CBA7 /* ZodiacView.h */,
+				85B2354A187549CD00A6CBA7 /* ZodiacView.m */,
+				85B2354B187549CD00A6CBA7 /* ZOxView.h */,
+				85B2354C187549CD00A6CBA7 /* ZOxView.m */,
+				85B2354D187549CD00A6CBA7 /* ZPigView.h */,
+				85B2354E187549CD00A6CBA7 /* ZPigView.m */,
+				85B2354F187549CD00A6CBA7 /* ZRabbitView.h */,
+				85B23550187549CD00A6CBA7 /* ZRabbitView.m */,
+				85B23551187549CD00A6CBA7 /* ZRatView.h */,
+				85B23552187549CD00A6CBA7 /* ZRatView.m */,
+				85B23553187549CD00A6CBA7 /* ZRoosterView.h */,
+				85B23554187549CD00A6CBA7 /* ZRoosterView.m */,
+				85B23555187549CD00A6CBA7 /* ZSheepView.h */,
+				85B23556187549CD00A6CBA7 /* ZSheepView.m */,
+				85B23557187549CD00A6CBA7 /* ZSnakeView.h */,
+				85B23558187549CD00A6CBA7 /* ZSnakeView.m */,
+				85B23559187549CD00A6CBA7 /* ZTigerView.h */,
+				85B2355A187549CD00A6CBA7 /* ZTigerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CCAZodiac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CCAZodiac_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85B234D61875495700A6CBA7 /* dogMorph.mp4 */,
+				85B234D71875495700A6CBA7 /* dogStroke.mp4 */,
+				85B234D81875495700A6CBA7 /* dogVideo.mp4 */,
+				85B234D91875495700A6CBA7 /* dragonMorph.mp4 */,
+				85B234DA1875495700A6CBA7 /* dragonStroke.mp4 */,
+				85B234DB1875495700A6CBA7 /* dragonVideo.mp4 */,
+				85B234DC1875495700A6CBA7 /* horseMorph.mp4 */,
+				85B234DD1875495700A6CBA7 /* horseStroke.mp4 */,
+				85B234DE1875495700A6CBA7 /* horseVideo.mp4 */,
+				85B234DF1875495700A6CBA7 /* monkeyMorph.mp4 */,
+				85B234E01875495700A6CBA7 /* monkeyStroke.mp4 */,
+				85B234E11875495700A6CBA7 /* monkeyVideo.mp4 */,
+				85B234E21875495700A6CBA7 /* oxMorph.mp4 */,
+				85B234E31875495800A6CBA7 /* oxStroke.mp4 */,
+				85B234E41875495800A6CBA7 /* oxVideo.mp4 */,
+				85B234E51875495800A6CBA7 /* pigMorph.mp4 */,
+				85B234E61875495800A6CBA7 /* pigStroke.mp4 */,
+				85B234E71875495800A6CBA7 /* pigVideo.mp4 */,
+				85B234E81875495800A6CBA7 /* rabbitMorph.mp4 */,
+				85B234E91875495800A6CBA7 /* rabbitStroke.mp4 */,
+				85B234EA1875495800A6CBA7 /* rabbitVideo.mp4 */,
+				85B234EB1875495800A6CBA7 /* ratMorph.mp4 */,
+				85B234EC1875495800A6CBA7 /* ratStroke.mp4 */,
+				85B234ED1875495800A6CBA7 /* ratVideo.mp4 */,
+				85B234EE1875495800A6CBA7 /* RoosterMorph.mp4 */,
+				85B234EF1875495800A6CBA7 /* RoosterStroke.mp4 */,
+				85B234F01875495800A6CBA7 /* roosterVideo.mp4 */,
+				85B234F11875495800A6CBA7 /* sheepMorph.mp4 */,
+				85B234F21875495800A6CBA7 /* sheepStroke.mp4 */,
+				85B234F31875495800A6CBA7 /* sheepVideo.mp4 */,
+				85B234F41875495800A6CBA7 /* snakeMorph.mp4 */,
+				85B234F51875495800A6CBA7 /* snakeStroke.mp4 */,
+				85B234F61875495800A6CBA7 /* snakeVideo.mp4 */,
+				85B234F71875495800A6CBA7 /* tigerMorph.mp4 */,
+				85B234F81875495900A6CBA7 /* tigerStroke.mp4 */,
+				85B234F91875495900A6CBA7 /* tigerVideo.mp4 */,
+				85B234101875492600A6CBA7 /* zMonkeyButton.png */,
+				85B234111875492600A6CBA7 /* aboutUsIcon.png */,
+				85B234121875492600A6CBA7 /* test.png */,
+				85B234131875492600A6CBA7 /* zSheepButtonPressed.png */,
+				85B234141875492600A6CBA7 /* zTigerInfo.png */,
+				85B234151875492600A6CBA7 /* zRabbitButtonPressed.png */,
+				85B234161875492600A6CBA7 /* icon512.jpg */,
+				85B234171875492600A6CBA7 /* zHorseButton.png */,
+				85B234181875492600A6CBA7 /* practiceIcon.png */,
+				85B234191875492600A6CBA7 /* oxButton.png */,
+				85B2341A1875492600A6CBA7 /* oxButtonPressed.png */,
+				85B2341B1875492600A6CBA7 /* rabbitButton.png */,
+				85B2341C1875492600A6CBA7 /* rabbitButtonPressed.png */,
+				85B2341D1875492600A6CBA7 /* zOxButton.png */,
+				85B2341E1875492600A6CBA7 /* zodiacRingButton.png */,
+				85B2341F1875492700A6CBA7 /* aboutUsIconPressed.png */,
+				85B234201875492700A6CBA7 /* zDogInfo.png */,
+				85B234211875492700A6CBA7 /* zOxInfo.png */,
+				85B234221875492700A6CBA7 /* videoIconPressed.png */,
+				85B234231875492700A6CBA7 /* horseButton.png */,
+				85B234241875492700A6CBA7 /* HorseInfo.png */,
+				85B234251875492700A6CBA7 /* zodiacWheelIcon.png */,
+				85B234261875492700A6CBA7 /* zDragonInfo.png */,
+				85B234271875492700A6CBA7 /* zHorseInfo.png */,
+				85B234281875492700A6CBA7 /* zRatInfo.png */,
+				85B234291875492700A6CBA7 /* MonkeyInfo.png */,
+				85B2342A1875492700A6CBA7 /* horseButtonPressed.png */,
+				85B2342B1875492700A6CBA7 /* strokeIcon.png */,
+				85B2342C1875492700A6CBA7 /* zPigButton.png */,
+				85B2342D1875492700A6CBA7 /* morphIcon.png */,
+				85B2342E1875492700A6CBA7 /* roosterButton.png */,
+				85B2342F1875492700A6CBA7 /* menuBackgroundrevised.png */,
+				85B234301875492700A6CBA7 /* zDragonButton.png */,
+				85B234311875492700A6CBA7 /* dragonButton.png */,
+				85B234321875492700A6CBA7 /* OxInfo.png */,
+				85B234331875492700A6CBA7 /* pigButton.png */,
+				85B234341875492700A6CBA7 /* practiceIconPressed.png */,
+				85B234351875492700A6CBA7 /* snakeButton.png */,
+				85B234361875492700A6CBA7 /* zSnakeButtonPressed.png */,
+				85B234371875492700A6CBA7 /* zSnakeInfo.png */,
+				85B234381875492700A6CBA7 /* strokeIconPressed.png */,
+				85B234391875492700A6CBA7 /* dogInfo.png */,
+				85B2343A1875492700A6CBA7 /* zHorseButtonPressed.png */,
+				85B2343B1875492700A6CBA7 /* PigInfo.png */,
+				85B2343C1875492700A6CBA7 /* sheepButton.png */,
+				85B2343D1875492700A6CBA7 /* dogButtonPressed.png */,
+				85B2343E1875492700A6CBA7 /* dragonButtonPressed.png */,
+				85B2343F1875492700A6CBA7 /* DogInfo .png */,
+				85B234401875492700A6CBA7 /* icon.png */,
+				85B234411875492700A6CBA7 /* monkeyButton.png */,
+				85B234421875492700A6CBA7 /* zPigInfo.png */,
+				85B234431875492700A6CBA7 /* zSheepInfo.png */,
+				85B234441875492700A6CBA7 /* zTigerButton.png */,
+				85B234451875492700A6CBA7 /* sheepButtonPressed.png */,
+				85B234461875492700A6CBA7 /* zodiacRingButtonPressed.png */,
+				85B234471875492700A6CBA7 /* menuBackground.png */,
+				85B234481875492700A6CBA7 /* tigerButton.png */,
+				85B234491875492700A6CBA7 /* DragonInfo.png */,
+				85B2344A1875492700A6CBA7 /* zAboutUs.png */,
+				85B2344B1875492700A6CBA7 /* zodiacWheelIconPressed.png */,
+				85B2344C1875492700A6CBA7 /* dogButton.png */,
+				85B2344D1875492700A6CBA7 /* pigButtonPressed.png */,
+				85B2344E1875492700A6CBA7 /* TigerInfo.png */,
+				85B2344F1875492700A6CBA7 /* zRoosterInfo.png */,
+				85B234501875492700A6CBA7 /* tigerButtonPressed.png */,
+				85B234511875492700A6CBA7 /* zDogButton.png */,
+				85B234521875492700A6CBA7 /* zSheepButton.png */,
+				85B234531875492700A6CBA7 /* RoosterInfo.png */,
+				85B234541875492700A6CBA7 /* monkeyButtonPressed.png */,
+				85B234551875492700A6CBA7 /* screenshot.png */,
+				85B234561875492700A6CBA7 /* zodiacWheel.png */,
+				85B234571875492700A6CBA7 /* ratButtonPressed.png */,
+				85B234581875492700A6CBA7 /* SnakeInfo.png */,
+				85B234591875492700A6CBA7 /* RabbitInfo.png */,
+				85B2345A1875492700A6CBA7 /* ratButton.png */,
+				85B2345B1875492700A6CBA7 /* zOxButtonPressed.png */,
+				85B2345C1875492700A6CBA7 /* videoIcon.png */,
+				85B2345D1875492700A6CBA7 /* zTigerButtonPressed.png */,
+				85B2345E1875492700A6CBA7 /* roosterButtonPressed.png */,
+				85B2345F1875492700A6CBA7 /* zRoosterButtonPressed.png */,
+				85B234601875492700A6CBA7 /* zPigButtonPressed.png */,
+				85B234611875492700A6CBA7 /* ratInfo.png */,
+				85B234621875492700A6CBA7 /* RodentInfo.png */,
+				85B234631875492700A6CBA7 /* zRoosterButton.png */,
+				85B234641875492700A6CBA7 /* moprhIconPressed.png */,
+				85B234651875492700A6CBA7 /* zRabbitButton.png */,
+				85B234661875492700A6CBA7 /* zRabbitInfo.png */,
+				85B234671875492700A6CBA7 /* tiger_iphoneinfo.png */,
+				85B234681875492700A6CBA7 /* zSnakeButton.png */,
+				85B234691875492700A6CBA7 /* SheepInfo.png */,
+				85B2346A1875492700A6CBA7 /* zDogButtonPressed.png */,
+				85B2346B1875492700A6CBA7 /* zRatButton.png */,
+				85B2346C1875492700A6CBA7 /* zMonkeyInfo.png */,
+				85B2346D1875492700A6CBA7 /* aboutUs.png */,
+				85B2346E1875492700A6CBA7 /* zMonkeyButtonPressed.png */,
+				85B2346F1875492700A6CBA7 /* zDragonButtonPressed.png */,
+				85B234701875492700A6CBA7 /* zRatButtonPressed.png */,
+				85B234711875492700A6CBA7 /* snakeButtonPressed.png */,
+				85B234721875492700A6CBA7 /* 2 icon bar copy.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1BB420FA0EAA800564377 /* MediaPlayer.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CCAZodiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CCAZodiac" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCAZodiac;
+			productName = CCAZodiac;
+			productReference = 1D6058910D05DD3D006BFB54 /* CCAZodiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 7KKLU7B38Y;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CCAZodiac" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CCAZodiac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B234FB1875495900A6CBA7 /* dogStroke.mp4 in Resources */,
+				85B235031875495900A6CBA7 /* monkeyMorph.mp4 in Resources */,
+				85B234991875492700A6CBA7 /* zSnakeButtonPressed.png in Resources */,
+				85B234AB1875492700A6CBA7 /* tigerButton.png in Resources */,
+				85B234951875492700A6CBA7 /* OxInfo.png in Resources */,
+				85B234CF1875492700A6CBA7 /* zMonkeyInfo.png in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				85B234D51875492700A6CBA7 /* 2 icon bar copy.png in Resources */,
+				85B235051875495900A6CBA7 /* monkeyVideo.mp4 in Resources */,
+				85B2351A1875495900A6CBA7 /* snakeVideo.mp4 in Resources */,
+				85B234D01875492700A6CBA7 /* aboutUs.png in Resources */,
+				85B2350A1875495900A6CBA7 /* pigStroke.mp4 in Resources */,
+				85B2350D1875495900A6CBA7 /* rabbitStroke.mp4 in Resources */,
+				85B234801875492700A6CBA7 /* zOxButton.png in Resources */,
+				85B234731875492700A6CBA7 /* zMonkeyButton.png in Resources */,
+				85B234971875492700A6CBA7 /* practiceIconPressed.png in Resources */,
+				85B234CA1875492700A6CBA7 /* tiger_iphoneinfo.png in Resources */,
+				85B234D11875492700A6CBA7 /* zMonkeyButtonPressed.png in Resources */,
+				85B235101875495900A6CBA7 /* ratStroke.mp4 in Resources */,
+				85B234D21875492700A6CBA7 /* zDragonButtonPressed.png in Resources */,
+				85B234B11875492700A6CBA7 /* TigerInfo.png in Resources */,
+				85B234FE1875495900A6CBA7 /* dragonStroke.mp4 in Resources */,
+				85B234931875492700A6CBA7 /* zDragonButton.png in Resources */,
+				85B2350C1875495900A6CBA7 /* rabbitMorph.mp4 in Resources */,
+				85B234AF1875492700A6CBA7 /* dogButton.png in Resources */,
+				85B234961875492700A6CBA7 /* pigButton.png in Resources */,
+				85B234C41875492700A6CBA7 /* ratInfo.png in Resources */,
+				85B234C71875492700A6CBA7 /* moprhIconPressed.png in Resources */,
+				85B234C21875492700A6CBA7 /* zRoosterButtonPressed.png in Resources */,
+				85B234891875492700A6CBA7 /* zDragonInfo.png in Resources */,
+				85B2349F1875492700A6CBA7 /* sheepButton.png in Resources */,
+				85B234A81875492700A6CBA7 /* sheepButtonPressed.png in Resources */,
+				85B234AE1875492700A6CBA7 /* zodiacWheelIconPressed.png in Resources */,
+				85B234741875492700A6CBA7 /* aboutUsIcon.png in Resources */,
+				85B2348A1875492700A6CBA7 /* zHorseInfo.png in Resources */,
+				85B235061875495900A6CBA7 /* oxMorph.mp4 in Resources */,
+				85B2349C1875492700A6CBA7 /* dogInfo.png in Resources */,
+				85B2350E1875495900A6CBA7 /* rabbitVideo.mp4 in Resources */,
+				85B2347D1875492700A6CBA7 /* oxButtonPressed.png in Resources */,
+				85B234BD1875492700A6CBA7 /* ratButton.png in Resources */,
+				85B234851875492700A6CBA7 /* videoIconPressed.png in Resources */,
+				85B234791875492700A6CBA7 /* icon512.jpg in Resources */,
+				85B234B61875492700A6CBA7 /* RoosterInfo.png in Resources */,
+				85B235161875495900A6CBA7 /* sheepStroke.mp4 in Resources */,
+				85B234C51875492700A6CBA7 /* RodentInfo.png in Resources */,
+				85B234C81875492700A6CBA7 /* zRabbitButton.png in Resources */,
+				85B234FC1875495900A6CBA7 /* dogVideo.mp4 in Resources */,
+				85B2350F1875495900A6CBA7 /* ratMorph.mp4 in Resources */,
+				85B234C91875492700A6CBA7 /* zRabbitInfo.png in Resources */,
+				85B234AA1875492700A6CBA7 /* menuBackground.png in Resources */,
+				85B2347E1875492700A6CBA7 /* rabbitButton.png in Resources */,
+				85B2348E1875492700A6CBA7 /* strokeIcon.png in Resources */,
+				85B2351C1875495900A6CBA7 /* tigerStroke.mp4 in Resources */,
+				85B234B21875492700A6CBA7 /* zRoosterInfo.png in Resources */,
+				85B234C11875492700A6CBA7 /* roosterButtonPressed.png in Resources */,
+				85B234BB1875492700A6CBA7 /* SnakeInfo.png in Resources */,
+				85B234CC1875492700A6CBA7 /* SheepInfo.png in Resources */,
+				85B235181875495900A6CBA7 /* snakeMorph.mp4 in Resources */,
+				85B234861875492700A6CBA7 /* horseButton.png in Resources */,
+				85B234981875492700A6CBA7 /* snakeButton.png in Resources */,
+				85B234A21875492700A6CBA7 /* DogInfo .png in Resources */,
+				85B234CB1875492700A6CBA7 /* zSnakeButton.png in Resources */,
+				85B235131875495900A6CBA7 /* RoosterStroke.mp4 in Resources */,
+				85B2351B1875495900A6CBA7 /* tigerMorph.mp4 in Resources */,
+				85B234871875492700A6CBA7 /* HorseInfo.png in Resources */,
+				85B234B01875492700A6CBA7 /* pigButtonPressed.png in Resources */,
+				85B234BA1875492700A6CBA7 /* ratButtonPressed.png in Resources */,
+				85B235021875495900A6CBA7 /* horseVideo.mp4 in Resources */,
+				85B234841875492700A6CBA7 /* zOxInfo.png in Resources */,
+				85B234911875492700A6CBA7 /* roosterButton.png in Resources */,
+				85B234CD1875492700A6CBA7 /* zDogButtonPressed.png in Resources */,
+				85B234A61875492700A6CBA7 /* zSheepInfo.png in Resources */,
+				85B234A91875492700A6CBA7 /* zodiacRingButtonPressed.png in Resources */,
+				85B234FA1875495900A6CBA7 /* dogMorph.mp4 in Resources */,
+				85B234A11875492700A6CBA7 /* dragonButtonPressed.png in Resources */,
+				85B235111875495900A6CBA7 /* ratVideo.mp4 in Resources */,
+				85B234831875492700A6CBA7 /* zDogInfo.png in Resources */,
+				85B234B71875492700A6CBA7 /* monkeyButtonPressed.png in Resources */,
+				85B235041875495900A6CBA7 /* monkeyStroke.mp4 in Resources */,
+				85B2351D1875495900A6CBA7 /* tigerVideo.mp4 in Resources */,
+				85B234921875492700A6CBA7 /* menuBackgroundrevised.png in Resources */,
+				85B2349E1875492700A6CBA7 /* PigInfo.png in Resources */,
+				85B235071875495900A6CBA7 /* oxStroke.mp4 in Resources */,
+				85B235011875495900A6CBA7 /* horseStroke.mp4 in Resources */,
+				85B234C61875492700A6CBA7 /* zRoosterButton.png in Resources */,
+				85B2349B1875492700A6CBA7 /* strokeIconPressed.png in Resources */,
+				85B234751875492700A6CBA7 /* test.png in Resources */,
+				85B234B31875492700A6CBA7 /* tigerButtonPressed.png in Resources */,
+				85B234B81875492700A6CBA7 /* screenshot.png in Resources */,
+				85B234771875492700A6CBA7 /* zTigerInfo.png in Resources */,
+				85B234D41875492700A6CBA7 /* snakeButtonPressed.png in Resources */,
+				85B2350B1875495900A6CBA7 /* pigVideo.mp4 in Resources */,
+				85B235001875495900A6CBA7 /* horseMorph.mp4 in Resources */,
+				85B2349A1875492700A6CBA7 /* zSnakeInfo.png in Resources */,
+				85B235171875495900A6CBA7 /* sheepVideo.mp4 in Resources */,
+				85B2348B1875492700A6CBA7 /* zRatInfo.png in Resources */,
+				85B235191875495900A6CBA7 /* snakeStroke.mp4 in Resources */,
+				85B234761875492700A6CBA7 /* zSheepButtonPressed.png in Resources */,
+				85B2347C1875492700A6CBA7 /* oxButton.png in Resources */,
+				85B234B91875492700A6CBA7 /* zodiacWheel.png in Resources */,
+				85B235141875495900A6CBA7 /* roosterVideo.mp4 in Resources */,
+				85B234AD1875492700A6CBA7 /* zAboutUs.png in Resources */,
+				85B234BC1875492700A6CBA7 /* RabbitInfo.png in Resources */,
+				85B234D31875492700A6CBA7 /* zRatButtonPressed.png in Resources */,
+				85B234A71875492700A6CBA7 /* zTigerButton.png in Resources */,
+				85B235121875495900A6CBA7 /* RoosterMorph.mp4 in Resources */,
+				85B2349D1875492700A6CBA7 /* zHorseButtonPressed.png in Resources */,
+				85B235081875495900A6CBA7 /* oxVideo.mp4 in Resources */,
+				85B2347F1875492700A6CBA7 /* rabbitButtonPressed.png in Resources */,
+				85B234A41875492700A6CBA7 /* monkeyButton.png in Resources */,
+				85B2348F1875492700A6CBA7 /* zPigButton.png in Resources */,
+				85B234821875492700A6CBA7 /* aboutUsIconPressed.png in Resources */,
+				85B235151875495900A6CBA7 /* sheepMorph.mp4 in Resources */,
+				85B234FF1875495900A6CBA7 /* dragonVideo.mp4 in Resources */,
+				85B234C01875492700A6CBA7 /* zTigerButtonPressed.png in Resources */,
+				85B234781875492700A6CBA7 /* zRabbitButtonPressed.png in Resources */,
+				85B234811875492700A6CBA7 /* zodiacRingButton.png in Resources */,
+				85B234941875492700A6CBA7 /* dragonButton.png in Resources */,
+				85B234A01875492700A6CBA7 /* dogButtonPressed.png in Resources */,
+				85B234BE1875492700A6CBA7 /* zOxButtonPressed.png in Resources */,
+				85B234881875492700A6CBA7 /* zodiacWheelIcon.png in Resources */,
+				85B234B51875492700A6CBA7 /* zSheepButton.png in Resources */,
+				85B234A51875492700A6CBA7 /* zPigInfo.png in Resources */,
+				85B2348D1875492700A6CBA7 /* horseButtonPressed.png in Resources */,
+				85B234AC1875492700A6CBA7 /* DragonInfo.png in Resources */,
+				85B235091875495900A6CBA7 /* pigMorph.mp4 in Resources */,
+				85B234C31875492700A6CBA7 /* zPigButtonPressed.png in Resources */,
+				85B234FD1875495900A6CBA7 /* dragonMorph.mp4 in Resources */,
+				85B2347A1875492700A6CBA7 /* zHorseButton.png in Resources */,
+				85B234A31875492700A6CBA7 /* icon.png in Resources */,
+				85B234CE1875492700A6CBA7 /* zRatButton.png in Resources */,
+				85B234B41875492700A6CBA7 /* zDogButton.png in Resources */,
+				85B2347B1875492700A6CBA7 /* practiceIcon.png in Resources */,
+				85B2348C1875492700A6CBA7 /* MonkeyInfo.png in Resources */,
+				85B234BF1875492700A6CBA7 /* videoIcon.png in Resources */,
+				85B234901875492700A6CBA7 /* morphIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B2356D187549CD00A6CBA7 /* ZDogView.m in Sources */,
+				85B2356E187549CD00A6CBA7 /* ZDragonView.m in Sources */,
+				85B2356A187549CD00A6CBA7 /* SheepView.m in Sources */,
+				85B23572187549CD00A6CBA7 /* ZOxView.m in Sources */,
+				85B23567187549CD00A6CBA7 /* RabbitView.m in Sources */,
+				85B23577187549CD00A6CBA7 /* ZSheepView.m in Sources */,
+				85B23575187549CD00A6CBA7 /* ZRatView.m in Sources */,
+				85B23569187549CD00A6CBA7 /* RoosterView.m in Sources */,
+				85B2355F187549CD00A6CBA7 /* HorseView.m in Sources */,
+				85B2355B187549CD00A6CBA7 /* CCAZodiacAppDelegate.m in Sources */,
+				85B2356F187549CD00A6CBA7 /* ZHorseView.m in Sources */,
+				85B2356B187549CD00A6CBA7 /* SnakeView.m in Sources */,
+				85B23566187549CD00A6CBA7 /* PigView.m in Sources */,
+				85B23578187549CD00A6CBA7 /* ZSnakeView.m in Sources */,
+				85B2355D187549CD00A6CBA7 /* DogView.m in Sources */,
+				85B23560187549CD00A6CBA7 /* InfoView.m in Sources */,
+				85B2355C187549CD00A6CBA7 /* CCAZodiacViewController.m in Sources */,
+				85B23565187549CD00A6CBA7 /* OxView.m in Sources */,
+				85B23568187549CD00A6CBA7 /* RatView.m in Sources */,
+				85B23562187549CD00A6CBA7 /* MainView.m in Sources */,
+				85B23570187549CD00A6CBA7 /* ZMonkeyView.m in Sources */,
+				85B23573187549CD00A6CBA7 /* ZPigView.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				85B23579187549CD00A6CBA7 /* ZTigerView.m in Sources */,
+				85B23574187549CD00A6CBA7 /* ZRabbitView.m in Sources */,
+				85B23576187549CD00A6CBA7 /* ZRoosterView.m in Sources */,
+				85B2355E187549CD00A6CBA7 /* DragonView.m in Sources */,
+				85B23571187549CD00A6CBA7 /* ZodiacView.m in Sources */,
+				85B23564187549CD00A6CBA7 /* MonkeyView.m in Sources */,
+				85B2356C187549CD00A6CBA7 /* TigerView.m in Sources */,
+				85B23563187549CD00A6CBA7 /* MenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: US Asia Internet";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CCAZodiac_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = CCAZodiac;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6F51BF89-72F5-4324-9CDB-4EF0948C7800";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CCAZodiac_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = CCAZodiac;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2A914C030FCF2D2900BEEF6B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos7.0;
+			};
+			name = Distribution;
+		};
+		2A914C040FCF2D2900BEEF6B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: US Asia Internet";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CCAZodiac_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = CCAZodiac;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6F51BF89-72F5-4324-9CDB-4EF0948C7800";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos7.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CCAZodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				2A914C040FCF2D2900BEEF6B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CCAZodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				2A914C030FCF2D2900BEEF6B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
