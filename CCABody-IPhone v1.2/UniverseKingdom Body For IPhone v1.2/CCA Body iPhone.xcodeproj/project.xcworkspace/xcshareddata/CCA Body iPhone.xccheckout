@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>449624F9-A0C8-46E7-BC81-60133D569782</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CCA Body iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCBE0544-39FE-45F2-B252-D6563EDFE881</key>
+		<string>ssh://github.com/jingcmu/cca_body.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UniverseKingdom Body For IPhone v1.2/CCA Body iPhone.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCBE0544-39FE-45F2-B252-D6563EDFE881</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jingcmu/cca_body.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCBE0544-39FE-45F2-B252-D6563EDFE881</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCBE0544-39FE-45F2-B252-D6563EDFE881</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CCABody-IPhone v1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
