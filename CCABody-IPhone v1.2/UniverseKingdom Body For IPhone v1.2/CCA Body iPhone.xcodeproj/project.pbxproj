@@ -148,6 +148,7 @@
 		70AE65B81501AE110071EAA9 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AE65B71501AE110071EAA9 /* aboutus.png */; };
 		70C451BD152ADD270083134F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C451BC152ADD270083134F /* icon.png */; };
 		70CE111C14BADF52008B713C /* Main_Screen_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 70CE111B14BADF52008B713C /* Main_Screen_iPhone.png */; };
+		8519CA8718938A76007E17AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8519CA8618938A76007E17AE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -309,6 +310,7 @@
 		70AE65B71501AE110071EAA9 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
 		70C451BC152ADD270083134F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		70CE111B14BADF52008B713C /* Main_Screen_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main_Screen_iPhone.png; sourceTree = "<group>"; };
+		8519CA8618938A76007E17AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CCA Body iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCA Body iPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -355,6 +357,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8519CA8618938A76007E17AE /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -810,6 +813,7 @@
 				2AB0390C132EC8930037FEBE /* practice_btn.png in Resources */,
 				2AB0390D132EC8930037FEBE /* practice_btn_shadow.png in Resources */,
 				2AB03916132EC9760037FEBE /* intro_btn.png in Resources */,
+				8519CA8718938A76007E17AE /* Default-568h@2x.png in Resources */,
 				2AB03917132EC9760037FEBE /* intro_btn_shadow.png in Resources */,
 				2AB0391F132ECF4D0037FEBE /* instruction.png in Resources */,
 				70349F98142EE87200292610 /* Body Logo.png in Resources */,

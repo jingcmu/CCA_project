@@ -39,11 +39,11 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16">
-                    <rect key="frame" x="165" y="380" width="66" height="62"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="16">
+                    <rect key="frame" x="165" y="380" width="61" height="61"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                    <state key="normal" image="NewMorph.png">
+                    <state key="normal" image="NewMorph.png" backgroundImage="NewMorph.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="selected" image="morph_dark.png"/>
@@ -51,11 +51,11 @@
                         <action selector="playMorph" destination="-1" eventType="touchUpInside" id="21"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="120">
-                    <rect key="frame" x="239" y="380" width="66" height="62"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="120">
+                    <rect key="frame" x="239" y="380" width="61" height="61"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                    <state key="normal" image="NewWritingPractice.png">
+                    <state key="normal" image="NewWritingPractice.png" backgroundImage="NewWritingPractice.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="selected" image="morph_dark.png"/>
@@ -63,11 +63,11 @@
                         <action selector="practiceWriting" destination="-1" eventType="touchUpInside" id="122"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="112">
-                    <rect key="frame" x="89" y="380" width="68" height="62"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="112">
+                    <rect key="frame" x="90" y="380" width="62" height="62"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                    <state key="normal" image="NewStrokeOrder.png">
+                    <state key="normal" image="NewStrokeOrder.png" backgroundImage="NewStrokeOrder.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="selected" image="morph_dark.png"/>
@@ -75,11 +75,11 @@
                         <action selector="playStrokeOrder" destination="-1" eventType="touchUpInside" id="114"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="117">
-                    <rect key="frame" x="15" y="380" width="66" height="62"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="117">
+                    <rect key="frame" x="20" y="380" width="61" height="61"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                    <state key="normal" image="NewVideo.png">
+                    <state key="normal" image="NewVideo.png" backgroundImage="NewVideo.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="selected" image="morph_dark.png"/>
@@ -87,12 +87,12 @@
                         <action selector="playVideo" destination="-1" eventType="touchUpInside" id="119"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="106">
-                    <rect key="frame" x="111" y="88" width="36" height="37"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="106">
+                    <rect key="frame" x="105" y="80" width="32" height="28"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                    <state key="normal" image="charsound2.png">
+                    <state key="normal" image="charsound2.png" backgroundImage="charsound2.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" image="charsound2shadow.png">
